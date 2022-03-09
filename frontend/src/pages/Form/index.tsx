@@ -11,16 +11,16 @@ function Form() {
   };
 
   return (
-    <div className="dsmovie-form-container">
-      <img className="dsmovie-movie-card-image" src={movie.image} alt={movie.title} />
-      <div className="dsmovie-card-bottom-container">
+    <div className="damovies-form-container">
+      <img className="damovies-movie-card-image" src={movie.image} alt={movie.title} />
+      <div className="damovies-card-bottom-container">
         <h3>"The Witcher"</h3>
-        <form className="dsmovie-form">
-          <div className="form-group dsmovie-form-group">
+        <form className="damovies-form">
+          <div className="form-group dasmovies-form-group">
             <label htmlFor="email">Informe seu email</label>
             <input type="email" className="form-control" id="email" />
           </div>
-          <div className="form-group dsmovie-form-group">
+          <div className="form-group damovies-form-group">
             <label htmlFor="score">Informe sua avaliação</label>
             <select className="form-control" id="score">
               <option>1</option>
@@ -30,13 +30,13 @@ function Form() {
               <option>5</option>
             </select>
           </div>
-          <div className="dsmovie-form-btn-container">
-            <button type="submit" className="btn btn-primary dsmovie-btn">
+          <div className="damovies-form-btn-container">
+            <button type="submit" className="btn btn-primary damovies-btn">
               Salvar
             </button>
           </div>
         </form>
-        <button className="btn btn-primary dsmovie-btn mt-3">Cancelar</button>
+        <button className="btn btn-primary damovies-btn mt-3">Cancelar</button>
       </div>
     </div>
   );
