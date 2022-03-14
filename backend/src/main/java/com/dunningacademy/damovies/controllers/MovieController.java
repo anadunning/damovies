@@ -12,7 +12,7 @@ import com.dunningacademy.damovies.dto.MovieDTO;
 import com.dunningacademy.damovies.services.MovieService;
 
 @RestController
-@RequestMapping(value = "/scores")
+@RequestMapping(value = "/movies")
 public class MovieController {
 	
 	@Autowired
